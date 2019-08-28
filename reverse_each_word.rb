@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-string.split(" ")
-end
-array.collect do |word| 
+array = string.split(" ")
+reversed_array = array.collect do |word| 
   word.reverse 
 end 
+
